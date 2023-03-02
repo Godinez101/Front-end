@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <title>Banana</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
-    <h3>Digite seus dados</h3>
+    <h1>Digite seus dados</h1>
     <form>
         Nome <input type="text" nome="nome" id="txtnome"|>
         Sobrenome <input type="text" name="sobrenome" id="txtSobrenome">
         CPF <input type="input" name="CPF"> <br/><br/>
         Data de nascimento <input type="date" name="Data de nascimento"> 
-        Email <input
+        
 
     </form>
 </body>
 </html>
+........................................................................
+No css
+body {
+    text-align: center;
+}
+
