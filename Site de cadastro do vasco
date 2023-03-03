@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="vasco.css">
     <title>Banana</title>
     <style>
-        body {
-            background-color: aqua;
-        }
+            body{
+                background-image: url(https://upload.wikimedia.org/wikipedia/pt/a/ac/CRVascodaGama.png);
+                
+            }
     </style>
 </head>
 <body>
@@ -18,15 +19,15 @@
         Nome <input type="text" nome="nome" id="txtnome"|>
         Sobrenome <input type="text" name="sobrenome" id="txtSobrenome">
         CPF <input type="input" name="CPF"> <br/><br/>
-        Data de nascimento <input type="date" name="Data de nascimento"> 
+        Data de Nascimento <input type="date" name="Data de Nascimento"> 
         
 
     </form>
 </body>
 </html>
-........................................................................
-No css
+........................................
+CSS
 body {
+        color: rgb(0, 26, 255);
     text-align: center;
 }
-
