@@ -5,29 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vasco.css">
-    <title>Banana</title>
+    <title>Venha ser jogador do Vasco</title>
     <style>
             body{
-                background-image: url(https://upload.wikimedia.org/wikipedia/pt/a/ac/CRVascodaGama.png);
+                background-image: url(https://wallpapercave.com/wp/wp2296150.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
                 
             }
     </style>
 </head>
 <body>
     <h1>Digite seus dados</h1>
-    <form>
-        Nome <input type="text" nome="nome" id="txtnome"|>
-        Sobrenome <input type="text" name="sobrenome" id="txtSobrenome">
-        CPF <input type="input" name="CPF"> <br/><br/>
-        Data de Nascimento <input type="date" name="Data de Nascimento"> 
-        
+    <div
+        div style="text-align: center;"    
 
+    </div>
+    <form>
+        Nome <input type="text" nome="nome" id="txtnome"|> <br/>
+        Sobrenome <input type="text" name="sobrenome" id="txtSobrenome"><br/>
+        CPF <input type="input" name="CPF"> <br/>
+        Telefone <input type="number" name="Telefone"> <br/>    
+        Data de Nascimento <input type="date" name="Data de Nascimento"> <br/>
+        Escolha a Posição:
+         <input type="radio" name="posição" value="Gl"> Gl
+         <input type="radio" name="posição" value="ZAG"> ZAG
+         <input type="radio" name="posição" value="LD"> LD
+         <input type="radio" name="posição" value="LE"> LE
+         <input type="radio" name="posição" value="VOL"> VOL
+         <input type="radio" name="posição" value="MEI"> MEI
+         <input type="radio" name="posição" value="ME"> ME
+         <input type="radio" name="posição" value="MD"> MD
+         <input type="radio" name="posição" value="SA"> SA
+         <input type="radio" name="posição" value="PD"> PD
+         <input type="radio" name="posição" value="PE"> PE
+         <input type="radio" name="posição" value="AT"> AT <br/>
+        Escolha seu Salário:
+        <input type="radio" name="salário" value="R$0,01"> R$0,01
+        <input type="radio" name="salário" value="R$0,00"> R$0,00
+        <input type="radio" name="salário" value="Pão"> Pão
+        <input type="radio" name="salário" value="Obrigado"> Obrigado <br/>
     </form>
+   <p><a href="http://127.0.0.1:5500/Test/vasco2.html" style ="color: white;" target="_blank" rel="noopener noreferr">Continuar<a/>
+
+    
 </body>
 </html>
+
 ........................................
+Segundo site
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vasco.css">
+    <title>Conclusão</title>
+    <style>
+        body{
+            background-image: url(https://wallpapercave.com/wp/wp2296150.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;        
+        }
+</style>
+</head>
+<body>
+    <h1>PARABÉNS!!!!!!!!!!</h1> <br/>   
+    <h4>SEU CADASTRO FOI EVIADO PARA A DIRETORIA DO VASCO</h4>
+</body>
+</html>
+..........................................
 CSS
 body {
-        color: rgb(0, 26, 255);
+        color: rgb(228, 228, 228);
     text-align: center;
 }
+
