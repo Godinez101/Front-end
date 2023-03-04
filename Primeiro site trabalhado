@@ -8,7 +8,7 @@
     <title>Venha ser jogador do Vasco</title>
     <style>
             body{
-                background-image: url(vasco.jpg);
+                background-image: url(https://bn1304files.storage.live.com/y4mHiOt8KbGPFrTwzENO5ESiqs3R99lR-H1rQVnPyRv0z4fqseL0fx_wy4AYG-FxXodmaULlYgIgBOQGkjFf5I2d82yoKaM7NpCh4Baxp1via8JhbT1ZoVwvwO_z-ukEVw_LUfYSUpyPROr2Eq-J2l6rI0UekMSSaw9WVeiqmj0LNQBy_jcNbXmwgOJi_yTDBFJnH4j0Za3QtcO37T9IneV5AyZ7ma2jnsMls-qMLApzzw?encodeFailures=1&width=979&height=552);
                 background-size: cover;
                 background-repeat: no-repeat;
                 
@@ -56,7 +56,6 @@
     
 </body>
 </html>
-
 ........................................
 SEGUNDO SITE
 <!DOCTYPE html>
@@ -69,7 +68,7 @@ SEGUNDO SITE
     <title>Conclusão</title>
     <style>
         body{
-            background-image: url(Gigante.jpg);
+            background-image: url(https://bn1304files.storage.live.com/y4mYAzgKmPphvUVGNFUYgDDqgBLfCGS_3g_lA9Tl4pQ6pa0cFzJ-f_2Ue4jHhPTQqjxCjr520RQMO7HzFAlZV3QBVFUrd2O8Wsbz6MzLTjvgk2_58G7OutzP_8hqUBkziPDwCveP4h2BOG2VBKP3RB2CpWDhkT_l6fLgqH5qCHCJ4bCifxkuufJhyPhlwJwJR0N2uJkax2Mfk-DdCixjqd9X3gYYLHvLidN4h7jZ03jJA8?encodeFailures=1&width=1080&height=609);
             background-size: cover;
             background-repeat: no-repeat;        
         }
