@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vasco.css">
+    <title>Venha ser jogador do Vasco</title>
+    <style>
+            body{
+                background-image: url(vasco.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
+    </style>
+</head>
+<body>
+    <font-size ="1><h1>Digite seus dados</h1></font-size>
+    <div
+        div style="text-align: center;"    
+
+    </div>
+    <form>
+     
+        Nome <input type="text" name="nome" placeholder="Digite seu nome" id="txtnome"> <br/>
+        Sobrenome <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" id="txtSobrenome"><br/>
+        CPF <input type="input" name="CPF" placeholder="Ex: xxx.xxx.xxx-xx "> <br/>
+        Telefone <input type="tel" name="Telefone" placeholder="(xx) x xxxx-xxxx"> <br/>    
+        Data de Nascimento <input type="date" name="Data de Nascimento"> <br/>
+        Escolha a Posição: <br/> 
+         <input type="radio" name="posição" value="Gl"> Gl
+         <input type="radio" name="posição" value="ZAG"> ZAG <br/> 
+         <input type="radio" name="posição" value="LD"> LD
+         <input type="radio" name="posição" value="LE"> LE <br/>
+         <input type="radio" name="posição" value="VOL"> VOL
+         <input type="radio" name="posição" value="MEI"> MEI <br/>      
+         <input type="radio" name="posição" value="ME"> ME
+         <input type="radio" name="posição" value="MD"> MD <br/> 
+         <input type="radio" name="posição" value="SA"> SA
+         <input type="radio" name="posição" value="PD"> PD <br/> 
+         <input type="radio" name="posição" value="PE"> PE
+         <input type="radio" name="posição" value="AT"> AT <br/>
+        Escolha seu Salário:
+       <select name="estado">
+        <option value="R$20.000 " ->R$20.000 </option>
+        <option value="R$40.000 " ->R$40.000 </option>
+        <option value="R$60.000 " ->R$60.000 </option>
+        <option value="R$80.000 " ->R$80.000 </option>
+        <option value="R$100.000 " ->R$100.000 </option>
+       </select>
+        <br/> <br/>  
+    </form>
+   <p><a href="http://127.0.0.1:5500/Test/vasco2.html" style ="color: white;" target="_blank" rel="noopener noreferr">CONTINUAR<a/>
+
+    
+</body>
+</html>
+
+........................................
+SEGUNDO SITE
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vasco2.css">
+    <title>Conclusão</title>
+    <style>
+        body{
+            background-image: url(Gigante.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;        
+        }
+</style>
+</head>
+<body>
+    <h1>CADASTRO ENVIADO!</h1> <br/>   
+    <h4>SEU CADASTRO FOI EVIADO PARA A DIRETORIA DO VASCO</h4> <br/>
+    <h4>IREMOS ENTRAR EM CONTATO ASSIM QUE SEU CADASTRO FOR ANALIZADO</h4> <br/>
+    <h4>OBRIGADO PELA CONSIDERAÇÃO!  </h4>
+</body>
+</html>
+..........................................
+CSS DO SITE 1
+body {
+    
+        color: rgb(228, 228, 228);
+    text-align: center;
+}
+h1{
+   font-size: 250%;
+}
+form{
+    font-size: 130%;
+}
+p{
+    font-size: 130%;
+}
+..............................................
+CSS DO SEGUNDO SITE
+body {
+    color: rgb(228, 228, 228);
+    text-align: center;
+}
+h4 {
+    font-size: 90%;
+}
+..............................................
