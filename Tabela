@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabela.css">
+    <title>Tabela</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+  <h1>Tabela de Adolescentes</h1>
+  <p>
+    <table border="1" align= center>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Grupo</th>
+        </tr>
+        <tr>
+            <td>Kaio</td>
+            <td>13</td>
+            <td>Douglas</td>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>14</td>
+            <td>Douglas</td>
+        </tr>
+        <tr>
+            <td>Yasmin</td>
+            <td>13</td>
+            <td>Douglas</td>
+        </tr>
+        <tr>
+            <td>Matheus</td>
+            <td>14</td>
+            <td>Douglas</td>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>13</td>
+            <td>Ester</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>15</td>
+            <td>Ester</td>
+        </tr>
+        <tr>
+            <td>Stefany</td>
+            <td>16</td>
+            <td>Ester</td>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>16</td>
+            <td>Ester</td>
+        </tr>
+    </table>
+  </p>
+</body>
+</html>
+...............................
+CSS
+body{
+    text-align: center;
+}
+.table {
+    border: 1px;
+    width: 50% !important;
+    margin: auto;
+}
