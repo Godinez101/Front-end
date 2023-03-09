@@ -1,3 +1,4 @@
+<!--Douglas e Sabrina, T2 -->
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -19,9 +20,10 @@
     <div style="text-align: center;">
       <h1>Digite seus dados</h1>
       <form>
-        Nome: <input type="text" name="nome" placeholder="Digite seu nome" maxlength="20" required id="txtnome"><br>
-        Sobrenome: <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" maxlength="30" required id="txtSobrenome"><br>
+        Nome: <input type="text" name="nome" placeholder="Digite seu nome" maxlength="20" required autofocus><br>
+        Sobrenome: <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" maxlength="30" required><br>
         Email: <input type="email" name="email" placeholder="email@example.com" required><br>
+        Senha: <input type="password" name="Senha" placeholder="xxxxxxxxxxxxxxx" required><br>
         CPF: <input type="text" name="cpf" placeholder="Ex: xxx.xxx.xxx-xx" maxlength="14" required><br>
         Telefone: <input type="tel" name="telefone" placeholder="(xx) x xxxx-xxxx" maxlength="14" required><br>
         Data de Nascimento: <input type="date" name="data_nascimento" required><br>
@@ -45,15 +47,18 @@
           <option value="R$60.000">R$60.000</option>
           <option value="R$80.000">R$80.000</option>
           <option value="R$100.000">R$100.000</option>
-        </select><br><br>
+        </select><br><br><br/>
         <button type="submit" onclick="return checkForm();">Enviar</button>
       </form>
       <a href="vasco2.html" style="color: white;" onclick="return checkForm();">Concluir</a>
+      <h3>Caso não tenha conseguido entender clique no link abaixo:</h3>
+      <a href="Vasco3.html" style="color: white;" onclick="return checkForm();">Link</a>
     </div>
   </body>
 </html>
 ........................................
 SEGUNDO SITE
+<!--Douglas e Sabrina, T2 -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -64,7 +69,7 @@ SEGUNDO SITE
     <title>Conclusão</title>
     <style>
         body{
-            background-image: url(https://bn1304files.storage.live.com/y4mYAzgKmPphvUVGNFUYgDDqgBLfCGS_3g_lA9Tl4pQ6pa0cFzJ-f_2Ue4jHhPTQqjxCjr520RQMO7HzFAlZV3QBVFUrd2O8Wsbz6MzLTjvgk2_58G7OutzP_8hqUBkziPDwCveP4h2BOG2VBKP3RB2CpWDhkT_l6fLgqH5qCHCJ4bCifxkuufJhyPhlwJwJR0N2uJkax2Mfk-DdCixjqd9X3gYYLHvLidN4h7jZ03jJA8?encodeFailures=1&width=1080&height=609);
+            background-image: url(Gigante.jpg);
             background-size: cover;
             background-repeat: no-repeat;        
         }
@@ -72,9 +77,80 @@ SEGUNDO SITE
 </head>
 <body>
     <h1>CADASTRO ENVIADO!</h1> <br/>   
-    <h4>SEU CADASTRO FOI EVIADO PARA A DIRETORIA DO VASCO</h4> <br/>
-    <h4>IREMOS ENTRAR EM CONTATO ASSIM QUE SEU CADASTRO FOR ANALIZADO</h4> <br/>
-    <h4>OBRIGADO PELA CONSIDERAÇÃO!  </h4>
+    <h4>OLHE A TABELA DE JOGADORES ABAIXO QUE SE CANDIDATARAM:</h4> <br/>
+    <style></style>
+    <p>
+        <Table border="1" align= center>
+            <tr>
+                <th>Nome</th>
+                <th>Posição</th>
+                <th>Salário</th>
+            </tr>
+            <tr>
+                <td>Guilherme</td>
+                <td>AT</td>
+                <td>R$100.000.00</td>
+            </tr>
+            <tr>
+                <td>Rogerio</td>
+                <td>LD</td>
+                <td>R$60.000.00</td>
+            </tr>
+            <tr>
+                <td>Adriano</td>
+                <td>GL</td>
+                <td>R$80.000.00</td>
+            </tr>
+            <tr>
+                <td>Jean</td>
+                <td>PE</td>
+                <td>R$20.000.00</td>
+            </tr>
+            <tr>
+                <td>Wilian</td>
+                <td>VOL</td>
+                <td>R$40.000.00</td>
+            </tr>
+            <tr>
+                <td>Matheus</td>
+                <td>LE</td>
+                <td>R$60.000.00</td>
+            </tr>
+        </Table>
+    </P>
+    <form>
+<h3>Deixe seu feedback:</h3>
+<textarea cols="30" rows="5"></textarea><br/>
+<button type="submit" onclick="return checkForm();">Enviar</button>
+</form>
+</body>
+</html>
+............................................................................
+TERCEIRO SITE
+<!--Douglas e Sabrina, T2 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vasco3.css">
+    <title>PDF DO VASCO</title>
+    <style>
+        body{
+            background-image: url(Gigante.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;        
+        }
+</style>
+</head>
+<body>
+    <div>
+        <div class="pdf-container">
+            <embed src="Vasco.pdf" width="800px" height="1000px" />
+        </div>
+        
+    </div>
 </body>
 </html>
 ..........................................
@@ -96,10 +172,22 @@ p{
 ..............................................
 CSS DO SEGUNDO SITE
 body {
-    color: rgb(228, 228, 228);
+    color: rgb(219, 219, 219);
     text-align: center;
 }
 h4 {
     font-size: 90%;
 }
 ..............................................
+CSS DO TERCEIRO SITE
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+embed {
+    max-width: 100%;
+    max-height: 100%;
+}
